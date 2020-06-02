@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "target": "es6",
+    "jsx": "react",
+    "module": "commonjs",
+    "paths": {
+      "@*": ["./src/*"],
+    }
+  },
+  "include": [
+    "src/**/*",
+    "public", "src/assets/js/polyfill.min.js",
+  ],
+  "exclude": [
+      "node_modules",
+      "dist",
+      "config",
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "> 1%",
+            "last 5 versions",
+            "ie >= 8"
+          ]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    ["import", { "libraryName": "antd", "style": "css" }],
+    "dynamic-import-webpack",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    [
+    "@babel/plugin-transform-runtime",
+  ]
+  ]
+}

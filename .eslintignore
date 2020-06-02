@@ -1,0 +1,7 @@
+*/node_modules/* 
+*/dist/*
+*/static/*
+**/public/*
+**/src/assets
+webpack.*
+*/config/*
